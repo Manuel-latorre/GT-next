@@ -1,0 +1,70 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+  
+
+::placeholder{
+    color: #00fff7ab;
+    font-size: medium;
+}
+.inputForm{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.76); 
+    border-radius: 10px;
+    border: none;
+    margin: 20px;
+    width: 60%; 
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #00fff5;
+    line-height: 28pt;
+}
+
+.textArea{
+    padding: 10px; 
+    border: none;
+    height: 300px;
+    width: 60%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.76); 
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #00fff5;
+    line-height: 28pt;
+}
+
+.btnEnviar{
+    width: 200px;
+    padding: 15px;
+    background-color: #00b6af;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.btnEnviar:disabled{
+    background-color: #027e7a53;
+    cursor: auto;
+}
+
+.alert{
+    position: fixed;
+    bottom: 20px; /* Ajusta esta propiedad para cambiar la distancia desde la parte inferior de la pantalla */
+    left: 20px; /* Ajusta esta propiedad para cambiar la distancia desde la parte izquierda de la pantalla */
+    z-index: 1000; /* Asegura que esté en la parte superior de otros elementos */
+    
+}
+
+@media(max-width:800px){
+    .textArea{
+        width: 90%;
+    }
+    .inputForm{
+        width: 90%;
+    }
+}
