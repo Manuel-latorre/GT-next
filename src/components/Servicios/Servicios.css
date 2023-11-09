@@ -1,0 +1,220 @@
+
+
+   .cardsServicios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.cardServicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    padding: 40px;
+    width: 430px;
+    height: 500px;
+    text-align: center;
+    border-radius: 15px;
+    background:linear-gradient(315deg,rgba(0, 204, 255, 0.307),rgba(0, 208, 255, 0.117),rgba(255, 255, 255, 0.034), rgba(255, 255, 255, 0.034));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border: solid 1px rgba(46, 46, 46, 0.545);
+    margin: 20px;
+}
+
+.li{
+    list-style: none;
+    text-align: center;
+    margin-top: 3%;
+}
+
+
+
+
+.tituloCard{
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+
+
+
+.text-card{
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+
+
+.btnConoceMas{
+  display:flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 4px;
+  overflow: hidden;
+  padding: 15px;
+  border: solid 1px rgba(46, 46, 46, 0.545);
+  border-radius: 15px;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+  align-self: center;
+  text-decoration: none;
+  transition: 0.5s;
+  background-color: transparent;
+}
+
+
+
+.btnConoceMas:hover{
+ color: white;
+ background:  transparent; 
+ box-shadow: 0 0 10px #19fff6, 0 0 40px #19fff6, 0 0 80px #19fff6;
+ transition-delay: 1s;
+ border: none;
+ border-radius: none;
+ cursor: pointer;
+}
+
+
+.btnConoceMas span{
+  position: absolute;
+  display: block;
+}
+
+.btnConoceMas span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #19fff6);
+}
+
+.btnConoceMas:hover span:nth-child(1){
+  left: 100%;
+  transition: 1s;
+}
+
+.btnConoceMas span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #19fff6);
+}
+
+.btnConoceMas:hover span:nth-child(3){
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+
+}
+
+
+.btnConoceMas span:nth-child(2) {
+   top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #19fff6); 
+}
+
+
+
+
+.card {
+  color: #1b1b1b;
+  width: 300px;
+  height: 400px;
+  position: relative;
+  outline: 2px solid #19fff6;
+  border-radius: 8px;
+  line-height: 150%;
+  padding: 16px;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(10px);
+  border: solid 1px rgba(222, 218, 218, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37); 
+  transition: background-color 1s ease-in-out;
+  overflow: hidden;
+}
+
+
+.card-content{
+  text-align: center;
+}
+
+
+
+/* MOBILE */
+
+.container-servicios-mobile{
+  display: none;
+}
+
+.swiper-slide{
+  display: none;
+}
+
+.swiper {
+    width: 320px;
+    height: 320px;
+  }
+  
+  .swiper-slide {
+    width: 320px;
+    height: 320px;
+  }
+  
+
+  .mySwiper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+  }
+
+  #mobile{
+    margin: auto;
+    width: 300px;
+    height:450px;
+  }
+
+  .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: 'next';
+    color: white;
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: 'prev';
+    color: white;
+
+
+}
+
+#titleMobile{
+    font-size: 18px;
+}
+
+#btnConoceMasMobile{
+    padding: 10px;
+    font-size: 14px;
+}
+
+
+@media(max-width:940px) {
+  .container-servicios-mobile{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-servicios-web{
+    display: none;
+  }
+}
