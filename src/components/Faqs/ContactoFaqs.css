@@ -1,0 +1,49 @@
+.container-faqs-solucion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    background:linear-gradient(135deg,rgba(255, 255, 255, 0.034), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
+.titulo-faqs{
+    font-size:40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.btnAsesor{
+    text-decoration: none;
+    background-color: #03a39d;
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btnContactoFaqs{
+    text-decoration: none;
+    color:  #00fff7;
+   
+}
+
+@media(max-width:1059px){
+    .container-faqs-solucion{
+        margin-bottom: 100px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .container-lottie-faqs{
+        display: none;
+    }
+}

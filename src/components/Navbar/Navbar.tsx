@@ -4,7 +4,7 @@ import React, {useState, useEffect} from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.svg'
 import Image from 'next/image'
-// import Loader from '../Loader/Loader'
+import Loader from '../Loader/Loader'
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -95,7 +95,7 @@ const Navbar = () => {
                 <span></span>
                 <span></span>
             </div>
-            {/* {showLoader && <Loader />} */}
+            {showLoader && <Loader />}
         </nav>
     
   )
