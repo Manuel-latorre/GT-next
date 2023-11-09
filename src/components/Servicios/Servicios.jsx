@@ -9,14 +9,13 @@ import 'swiper/css/effect-flip';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import Loader from '../Loader/Loader'
-import { useNavigate } from 'react-router-dom';
+
 
 
 
 
 const Servicios = () => {
     const [showLoader, setShowLoader] = useState(false);
-    const navigate= useNavigate();
     const loader = (event) => {
         setShowLoader(true);
         setTimeout(() => {
