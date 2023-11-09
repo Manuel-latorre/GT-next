@@ -1,7 +1,6 @@
 "use client"
 
 import React, {useState} from 'react';
-import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import './Servicios.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectFlip, Pagination, Navigation, Autoplay } from 'swiper/modules';
@@ -11,7 +10,6 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import Loader from '../Loader/Loader'
 import { useNavigate } from 'react-router-dom';
-import avatar from '../../assets/avatar5.png'
 
 
 
@@ -51,7 +49,7 @@ const Servicios = () => {
                    <hr />
                    <li className='li'>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
-                           <CheckCircleIcon sx={{fontSize:30}}/>
+                           <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=fill"> <g id="check-circle"> <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM16.5303 10.0303C16.8232 9.73744 16.8232 9.26256 16.5303 8.96967C16.2374 8.67678 15.7626 8.67678 15.4697 8.96967L10.8434 13.5959C10.7458 13.6935 10.5875 13.6935 10.4899 13.5959L8.53033 11.6363C8.23744 11.3434 7.76256 11.3434 7.46967 11.6363C7.17678 11.9292 7.17678 12.4041 7.46967 12.697L9.42923 14.6566C10.1126 15.34 11.2207 15.34 11.9041 14.6566L16.5303 10.0303Z" fill="#000000"></path> </g> </g> </g></svg>
                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Desarrollo y diseños de sitios web a Medida / Landing Pages</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
@@ -59,15 +57,15 @@ const Servicios = () => {
                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Diseño de Experiencia e Interfaz de Usuario (UX/UI)</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
-                           <CheckCircleIcon sx={{fontSize:30}}/>
+                       <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=fill"> <g id="check-circle"> <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM16.5303 10.0303C16.8232 9.73744 16.8232 9.26256 16.5303 8.96967C16.2374 8.67678 15.7626 8.67678 15.4697 8.96967L10.8434 13.5959C10.7458 13.6935 10.5875 13.6935 10.4899 13.5959L8.53033 11.6363C8.23744 11.3434 7.76256 11.3434 7.46967 11.6363C7.17678 11.9292 7.17678 12.4041 7.46967 12.697L9.42923 14.6566C10.1126 15.34 11.2207 15.34 11.9041 14.6566L16.5303 10.0303Z" fill="#000000"></path> </g> </g> </g></svg>
                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Mantenimiento y Soporte de Software</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
-                           <CheckCircleIcon sx={{fontSize:30}}/>
+                       <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=fill"> <g id="check-circle"> <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM16.5303 10.0303C16.8232 9.73744 16.8232 9.26256 16.5303 8.96967C16.2374 8.67678 15.7626 8.67678 15.4697 8.96967L10.8434 13.5959C10.7458 13.6935 10.5875 13.6935 10.4899 13.5959L8.53033 11.6363C8.23744 11.3434 7.76256 11.3434 7.46967 11.6363C7.17678 11.9292 7.17678 12.4041 7.46967 12.697L9.42923 14.6566C10.1126 15.34 11.2207 15.34 11.9041 14.6566L16.5303 10.0303Z" fill="#000000"></path> </g> </g> </g></svg>
                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Alojamiento Web hosting</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
-                           <CheckCircleIcon sx={{fontSize:30}}/>
+                       <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=fill"> <g id="check-circle"> <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM16.5303 10.0303C16.8232 9.73744 16.8232 9.26256 16.5303 8.96967C16.2374 8.67678 15.7626 8.67678 15.4697 8.96967L10.8434 13.5959C10.7458 13.6935 10.5875 13.6935 10.4899 13.5959L8.53033 11.6363C8.23744 11.3434 7.76256 11.3434 7.46967 11.6363C7.17678 11.9292 7.17678 12.4041 7.46967 12.697L9.42923 14.6566C10.1126 15.34 11.2207 15.34 11.9041 14.6566L16.5303 10.0303Z" fill="#000000"></path> </g> </g> </g></svg>
                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Website Testing</p>
                         </div>
                    </li>
@@ -87,23 +85,23 @@ const Servicios = () => {
                    <hr />
                    <li className='li'>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
-                           <CheckCircleIcon sx={{fontSize:30}}/>
+                           <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=fill"> <g id="check-circle"> <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM16.5303 10.0303C16.8232 9.73744 16.8232 9.26256 16.5303 8.96967C16.2374 8.67678 15.7626 8.67678 15.4697 8.96967L10.8434 13.5959C10.7458 13.6935 10.5875 13.6935 10.4899 13.5959L8.53033 11.6363C8.23744 11.3434 7.76256 11.3434 7.46967 11.6363C7.17678 11.9292 7.17678 12.4041 7.46967 12.697L9.42923 14.6566C10.1126 15.34 11.2207 15.34 11.9041 14.6566L16.5303 10.0303Z" fill="#000000"></path> </g> </g> </g></svg>
                            <p style={{marginLeft: 5, textAlignLast:'start', textAlign:'start', fontSize:14}}>Gestión de Redes Sociales y generación de contenido</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
-                           <CheckCircleIcon sx={{fontSize:30}}/>
+                           <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=fill"> <g id="check-circle"> <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM16.5303 10.0303C16.8232 9.73744 16.8232 9.26256 16.5303 8.96967C16.2374 8.67678 15.7626 8.67678 15.4697 8.96967L10.8434 13.5959C10.7458 13.6935 10.5875 13.6935 10.4899 13.5959L8.53033 11.6363C8.23744 11.3434 7.76256 11.3434 7.46967 11.6363C7.17678 11.9292 7.17678 12.4041 7.46967 12.697L9.42923 14.6566C10.1126 15.34 11.2207 15.34 11.9041 14.6566L16.5303 10.0303Z" fill="#000000"></path> </g> </g> </g></svg>
                            <p style={{marginLeft: 5 , textAlignLast:'start', textAlign:'start', fontSize:14}}>Campañas Social Ads / Email Marketing</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
-                           <CheckCircleIcon sx={{fontSize:30}}/>
+                           <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=fill"> <g id="check-circle"> <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM16.5303 10.0303C16.8232 9.73744 16.8232 9.26256 16.5303 8.96967C16.2374 8.67678 15.7626 8.67678 15.4697 8.96967L10.8434 13.5959C10.7458 13.6935 10.5875 13.6935 10.4899 13.5959L8.53033 11.6363C8.23744 11.3434 7.76256 11.3434 7.46967 11.6363C7.17678 11.9292 7.17678 12.4041 7.46967 12.697L9.42923 14.6566C10.1126 15.34 11.2207 15.34 11.9041 14.6566L16.5303 10.0303Z" fill="#000000"></path> </g> </g> </g></svg>
                            <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}> Inbound Marketing</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
-                           <CheckCircleIcon sx={{fontSize:30}}/>
+                           <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=fill"> <g id="check-circle"> <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM16.5303 10.0303C16.8232 9.73744 16.8232 9.26256 16.5303 8.96967C16.2374 8.67678 15.7626 8.67678 15.4697 8.96967L10.8434 13.5959C10.7458 13.6935 10.5875 13.6935 10.4899 13.5959L8.53033 11.6363C8.23744 11.3434 7.76256 11.3434 7.46967 11.6363C7.17678 11.9292 7.17678 12.4041 7.46967 12.697L9.42923 14.6566C10.1126 15.34 11.2207 15.34 11.9041 14.6566L16.5303 10.0303Z" fill="#000000"></path> </g> </g> </g></svg>
                            <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}> Optimización y Publicidad en motores de busqueda (SEM /SEO)</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
-                           <CheckCircleIcon sx={{fontSize:30}}/>
+                           <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=fill"> <g id="check-circle"> <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM16.5303 10.0303C16.8232 9.73744 16.8232 9.26256 16.5303 8.96967C16.2374 8.67678 15.7626 8.67678 15.4697 8.96967L10.8434 13.5959C10.7458 13.6935 10.5875 13.6935 10.4899 13.5959L8.53033 11.6363C8.23744 11.3434 7.76256 11.3434 7.46967 11.6363C7.17678 11.9292 7.17678 12.4041 7.46967 12.697L9.42923 14.6566C10.1126 15.34 11.2207 15.34 11.9041 14.6566L16.5303 10.0303Z" fill="#000000"></path> </g> </g> </g></svg>
                            <p style={{marginLeft: 5, textAlign:'start', fontSize:14}}>Marketing de Contenidos</p>
                        </div>
                    </li>
@@ -122,23 +120,23 @@ const Servicios = () => {
                    <hr />
                    <li className='li'>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
-                           <CheckCircleIcon sx={{fontSize:30}}/>
+                           <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=fill"> <g id="check-circle"> <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM16.5303 10.0303C16.8232 9.73744 16.8232 9.26256 16.5303 8.96967C16.2374 8.67678 15.7626 8.67678 15.4697 8.96967L10.8434 13.5959C10.7458 13.6935 10.5875 13.6935 10.4899 13.5959L8.53033 11.6363C8.23744 11.3434 7.76256 11.3434 7.46967 11.6363C7.17678 11.9292 7.17678 12.4041 7.46967 12.697L9.42923 14.6566C10.1126 15.34 11.2207 15.34 11.9041 14.6566L16.5303 10.0303Z" fill="#000000"></path> </g> </g> </g></svg>
                            <p style={{marginLeft: 5}}>Auditoría Web</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
-                           <CheckCircleIcon sx={{fontSize:30}} />
+                           <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=fill"> <g id="check-circle"> <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM16.5303 10.0303C16.8232 9.73744 16.8232 9.26256 16.5303 8.96967C16.2374 8.67678 15.7626 8.67678 15.4697 8.96967L10.8434 13.5959C10.7458 13.6935 10.5875 13.6935 10.4899 13.5959L8.53033 11.6363C8.23744 11.3434 7.76256 11.3434 7.46967 11.6363C7.17678 11.9292 7.17678 12.4041 7.46967 12.697L9.42923 14.6566C10.1126 15.34 11.2207 15.34 11.9041 14.6566L16.5303 10.0303Z" fill="#000000"></path> </g> </g> </g></svg> 
                            <p style={{marginLeft: 5}}>Auditoría Social Media</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
-                           <CheckCircleIcon sx={{fontSize:30}} />
+                           <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=fill"> <g id="check-circle"> <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM16.5303 10.0303C16.8232 9.73744 16.8232 9.26256 16.5303 8.96967C16.2374 8.67678 15.7626 8.67678 15.4697 8.96967L10.8434 13.5959C10.7458 13.6935 10.5875 13.6935 10.4899 13.5959L8.53033 11.6363C8.23744 11.3434 7.76256 11.3434 7.46967 11.6363C7.17678 11.9292 7.17678 12.4041 7.46967 12.697L9.42923 14.6566C10.1126 15.34 11.2207 15.34 11.9041 14.6566L16.5303 10.0303Z" fill="#000000"></path> </g> </g> </g></svg>
                            <p style={{marginLeft: 5}}>Métricas y KPI´s</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
-                           <CheckCircleIcon sx={{fontSize:30}} />
+                           <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=fill"> <g id="check-circle"> <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM16.5303 10.0303C16.8232 9.73744 16.8232 9.26256 16.5303 8.96967C16.2374 8.67678 15.7626 8.67678 15.4697 8.96967L10.8434 13.5959C10.7458 13.6935 10.5875 13.6935 10.4899 13.5959L8.53033 11.6363C8.23744 11.3434 7.76256 11.3434 7.46967 11.6363C7.17678 11.9292 7.17678 12.4041 7.46967 12.697L9.42923 14.6566C10.1126 15.34 11.2207 15.34 11.9041 14.6566L16.5303 10.0303Z" fill="#000000"></path> </g> </g> </g></svg> 
                            <p style={{marginLeft: 5}}>Análisis de ventas y conversiones</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
-                           <CheckCircleIcon sx={{fontSize:30}} />
+                           <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=fill"> <g id="check-circle"> <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM16.5303 10.0303C16.8232 9.73744 16.8232 9.26256 16.5303 8.96967C16.2374 8.67678 15.7626 8.67678 15.4697 8.96967L10.8434 13.5959C10.7458 13.6935 10.5875 13.6935 10.4899 13.5959L8.53033 11.6363C8.23744 11.3434 7.76256 11.3434 7.46967 11.6363C7.17678 11.9292 7.17678 12.4041 7.46967 12.697L9.42923 14.6566C10.1126 15.34 11.2207 15.34 11.9041 14.6566L16.5303 10.0303Z" fill="#000000"></path> </g> </g> </g></svg> 
                            <p style={{marginLeft: 5}}>Análisis de comportamiento de cliente</p>
                        </div>
                    </li>
@@ -165,23 +163,23 @@ const Servicios = () => {
                    <hr />
                    <li className='li'>
                    <div style={{display:'flex', alignItems:'center', marginTop:10}}>
-                           <CheckCircleIcon sx={{fontSize:40}}/>
+                           <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=fill"> <g id="check-circle"> <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM16.5303 10.0303C16.8232 9.73744 16.8232 9.26256 16.5303 8.96967C16.2374 8.67678 15.7626 8.67678 15.4697 8.96967L10.8434 13.5959C10.7458 13.6935 10.5875 13.6935 10.4899 13.5959L8.53033 11.6363C8.23744 11.3434 7.76256 11.3434 7.46967 11.6363C7.17678 11.9292 7.17678 12.4041 7.46967 12.697L9.42923 14.6566C10.1126 15.34 11.2207 15.34 11.9041 14.6566L16.5303 10.0303Z" fill="#000000"></path> </g> </g> </g></svg>
                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Desarrollo y diseños de sitios web a Medida / Landing Pages</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
-                           <CheckCircleIcon sx={{fontSize:40}}/>
+                           <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=fill"> <g id="check-circle"> <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM16.5303 10.0303C16.8232 9.73744 16.8232 9.26256 16.5303 8.96967C16.2374 8.67678 15.7626 8.67678 15.4697 8.96967L10.8434 13.5959C10.7458 13.6935 10.5875 13.6935 10.4899 13.5959L8.53033 11.6363C8.23744 11.3434 7.76256 11.3434 7.46967 11.6363C7.17678 11.9292 7.17678 12.4041 7.46967 12.697L9.42923 14.6566C10.1126 15.34 11.2207 15.34 11.9041 14.6566L16.5303 10.0303Z" fill="#000000"></path> </g> </g> </g></svg>
                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Diseño de Experiencia e Interfaz de Usuario (UX/UI)</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
-                           <CheckCircleIcon sx={{fontSize:40}}/>
+                           <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=fill"> <g id="check-circle"> <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM16.5303 10.0303C16.8232 9.73744 16.8232 9.26256 16.5303 8.96967C16.2374 8.67678 15.7626 8.67678 15.4697 8.96967L10.8434 13.5959C10.7458 13.6935 10.5875 13.6935 10.4899 13.5959L8.53033 11.6363C8.23744 11.3434 7.76256 11.3434 7.46967 11.6363C7.17678 11.9292 7.17678 12.4041 7.46967 12.697L9.42923 14.6566C10.1126 15.34 11.2207 15.34 11.9041 14.6566L16.5303 10.0303Z" fill="#000000"></path> </g> </g> </g></svg>
                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Mantenimiento y Soporte de Software</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
-                           <CheckCircleIcon sx={{fontSize:40}}/>
+                           <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=fill"> <g id="check-circle"> <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM16.5303 10.0303C16.8232 9.73744 16.8232 9.26256 16.5303 8.96967C16.2374 8.67678 15.7626 8.67678 15.4697 8.96967L10.8434 13.5959C10.7458 13.6935 10.5875 13.6935 10.4899 13.5959L8.53033 11.6363C8.23744 11.3434 7.76256 11.3434 7.46967 11.6363C7.17678 11.9292 7.17678 12.4041 7.46967 12.697L9.42923 14.6566C10.1126 15.34 11.2207 15.34 11.9041 14.6566L16.5303 10.0303Z" fill="#000000"></path> </g> </g> </g></svg>
                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Alojamiento Web hosting</p>
                        </div>
                        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
-                           <CheckCircleIcon sx={{fontSize:40}}/>
+                           <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=fill"> <g id="check-circle"> <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM16.5303 10.0303C16.8232 9.73744 16.8232 9.26256 16.5303 8.96967C16.2374 8.67678 15.7626 8.67678 15.4697 8.96967L10.8434 13.5959C10.7458 13.6935 10.5875 13.6935 10.4899 13.5959L8.53033 11.6363C8.23744 11.3434 7.76256 11.3434 7.46967 11.6363C7.17678 11.9292 7.17678 12.4041 7.46967 12.697L9.42923 14.6566C10.1126 15.34 11.2207 15.34 11.9041 14.6566L16.5303 10.0303Z" fill="#000000"></path> </g> </g> </g></svg>
                            <p style={{marginLeft: 7, textAlignLast:'start', textAlign:'start', fontSize:14}}>Website Testing</p>
                         </div>
                    </li>
@@ -269,39 +267,6 @@ const Servicios = () => {
         </div>
         {showLoader && <Loader />}
        </div> 
-    //  <div style={{display:'flex', justifyContent:'space-evenly'}}>
-    //      <div id='ds'>
-    //          <div className="card">
-    //                  <p style={{textAlign:'center', marginBottom: 40, fontSize: 25, fontWeight:'bold'}}>DESARROLLO DE SOFTWARE</p>
-    //              <div className="card-content">
-    //              <p style={{fontSize:18}}>Transforma tu visión en realidad con nuestro servicio de desarrollo de sitios web. Creamos experiencias digitales únicas y funcionales que destacan tu marca y atraen a tu audiencia. ¡Construyamos juntos la presencia en línea que tu negocio merece!</p>
-    //              <button className='btnConoceMas'>Conocé mas</button>
-    //              </div>
-    //          </div>
-    //      </div>
-
-    //  <div id='mk'>
-    //      <div class="card">
-    //              <p style={{textAlign:'center', marginBottom: 40, fontSize: 25, fontWeight:'bold'}}>MARKETING DIGITAL</p>
-    //          <div class="card-content">
-    //          <p style={{fontSize:18}}>En un mundo cada vez más conectado, el marketing digital no es solo una opción, es una necesidad. Convierte visitantes en clientes y desbloquea el verdadero potencial de tu negocio en el mundo digital!</p>
-    //          <button className='btnConoceMas'>Conocé mas</button>
-    //          </div>
-    //      </div>
-
-    //  </div>
-
-    //  <div id='ce'>
-    //      <div class="card">
-    //              <p style={{textAlign:'center', marginBottom: 40, fontSize: 25, fontWeight:'bold'}}>COMERCIO ELECTRONICO</p>
-    //          <div class="card-content">
-    //          <p style={{fontSize:18}}>Brindamos soluciones de comercio electrónico para impulsar tu negocio en línea y aumentar tus ventas. ¡Descubre cómo podemos ayudarte a tener éxito en el mundo digital Auditamos canales digitales. Y te elevamos informes detallados de situación.</p>
-    //          <button className='btnConoceMas'>Conocé mas</button>
-    //          </div>
-    //      </div>
-
-    //  </div>
-    //  </div>
   )
 }
 
